@@ -10,6 +10,7 @@ public class Utils {
 		return (Stage) ((Node) event.getSource()).getScene().getWindow();
 	}
 	
+	//converter um valor para inteiro
 	public static Integer tryParseToInt(String str) {
 		try {
 			return Integer.parseInt(str);
